@@ -1,0 +1,184 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.container-tag .pp {
+    font-size: 3rem;
+    width: 50%;
+    height: auto;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    transition: transform 1000ms, color 3000ms, background 6000ms;
+}
+
+.container-tag .pp:hover {
+    box-shadow: 5px 5px 100px peru;
+    background: #72371b0f;
+    border: none;
+    color: rgb(205, 141, 63);
+    transform: rotate(360deg);
+}
+
+.container-tag {
+    box-sizing: border-box;
+    font-size: 2rem;
+    width: 100%;
+    height: 100vh;
+    margin: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: 4px solid rgba(255, 5, 184, 0.505);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("background.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.logo1 {
+    width: 8%;
+    height: 8vh;
+    cursor: pointer;
+}
+
+.logo2 {
+    width: 5%;
+    height: 8vh;
+    cursor: pointer;
+}
+
+.navbar {
+
+    flex: 1;
+    width: 100%;
+    height: 9vh;
+    border: 2px solid black;
+    background-color: rgb(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    font-weight: bold;
+    list-style: none;
+    margin: 0px 10px;
+    margin-right: 4rem;
+}
+
+.navbar ul li a {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-family: Times New Roman;
+    color: white;
+    text-decoration: none;
+    transition: transform 3s;
+}
+
+.navbar ul li a:hover {
+    transform: scale(2);
+    color: aqua;
+}
+
+.row {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 130px;
+    padding: 12px 0px;
+    color: #000;
+    margin: 30px 0px;
+    border: 2px solid peru;
+    border-radius: 20px;
+    outline: solid black 2px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    background-color: black;
+}
+
+.row .col1 {
+    color: #fff;
+    margin-left: 100px;
+}
+
+.row .col1 p {
+    font-style: italic;
+}
+
+.card {
+    font-size: 1rem;
+    border-radius: 25px;
+    width: 200px;
+    padding: 15px 25px;
+    border: 3px solid black;
+    outline: 10px saddlebrown;
+    height: 200px;
+    display: inline-block;
+    margin: 10px 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: all 0.5s;
+
+}
+
+.col2 {
+    margin-left: 220px;
+
+}
+
+.card p {
+    color: white;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+.c1 {
+    background: url("pic-1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.c2 {
+    background: url("pic-2.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.c3 {
+    background: url("pic-3.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.c4 {
+    background: url("pic-4.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    color: black;
+    background: url("tf.jpg");
+    background-position: center;
+    background-size: cover;
+}
