@@ -37,7 +37,7 @@ html {
     padding-left: 4px;
     padding-right: 4px;
     border: 4px solid rgba(255, 5, 184, 0.505);
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("background.png");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("pictures/background.png");
     background-position: center;
     background-size: cover;
 }
@@ -152,25 +152,25 @@ button {
 }
 
 .c1 {
-    background: url("pic-1.png");
+    background: url("pictures/pic-1.png");
     background-position: center;
     background-size: cover;
 }
 
 .c2 {
-    background: url("pic-2.png");
+    background: url("pictures/pic-2.png");
     background-position: center;
     background-size: cover;
 }
 
 .c3 {
-    background: url("pic-3.png");
+    background: url("pictures/pic-3.png");
     background-position: center;
     background-size: cover;
 }
 
 .c4 {
-    background: url("pic-4.png");
+    background: url("pictures/pic-4.png");
     background-position: center;
     background-size: cover;
 }
